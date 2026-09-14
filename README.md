@@ -72,7 +72,7 @@ netflix-ai-project/
 ├── app.py              # Streamlit 웹 서비스 메인 코드
 ├── requirements.txt    # 필요 라이브러리 목록
 └── README.md           # 프로젝트 소개 문서
-
+```text
 ---
 
 ## 모델 파일 안내 및 위치
