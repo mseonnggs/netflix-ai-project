@@ -2,7 +2,8 @@
 
 글로벌 넷플릭스 시청 데이터 및 콘텐츠 분석을 통해 사용자 맞춤형 추천 및 비즈니스 인사이트를 도출하고, 실제 웹 서비스로 배포한 포트폴리오 프로젝트입니다.
 
-[![Live Demo](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow?style=for-the-badge&labelColor=555555)](https://본인_허깅페이스_링크_주소)
+[![LIVE DEMO](https://img.shields.io/badge/👾-LIVE%20DEMO-555555?style=for-the-badge)](https://ccyygg-olist-ai-service.hf.space/)
+[![HUGGING FACE](https://img.shields.io/badge/HUGGING%20FACE-orange?style=for-the-badge)](https://ccyygg-olist-ai-service.hf.space/)
 ---
 
 ## 🛠️ 기술 Stack (Tech Stack)
