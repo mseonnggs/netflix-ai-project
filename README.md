@@ -3,13 +3,6 @@
 글로벌 넷플릭스 시청 데이터 및 콘텐츠 분석을 통해 사용자 맞춤형 추천 및 비즈니스 인사이트를 도출하고, 실제 웹 서비스로 배포한 포트폴리오 프로젝트입니다.
 
 [![Live Demo](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow?style=for-the-badge&labelColor=555555)](https://본인_허깅페이스_링크_주소)
----
-
-## 🛠️ 기술 Stack (Tech Stack)
-* **Language:** Python
-* **Machine Learning / AI:** Scikit-learn, Pandas, NumPy
-* **Web Framework:** Streamlit (또는 FastAPI 등 본인이 쓴 기술)
-* **Deployment:** Hugging Face Spaces / AWS / Render 등
 
 ---
 
@@ -24,3 +17,58 @@
 2. **데이터 시각화:** 연도별, 국가별 넷플릭스 콘텐츠 트렌드를 한눈에 볼 수 있습니다.
 
 > 🔗 **실제 작동 데모:** [여기에 배포 링크 주소 넣기]
+
+---
+
+## 📌 프로젝트 요약
+글로벌 넷플릭스 시청 및 콘텐츠 데이터를 활용해 사용자 맞춤형 추천 시스템을 구축하고, 실제 웹 서비스로 배포한 포트폴리오 프로젝트입니다.
+
+---
+
+## 🎯 핵심 목표
+* 넷플릭스 유저에게 최적의 콘텐츠를 제안하는 AI 추천 알고리즘 구현
+* 데이터 분석부터 모델 학습, 그리고 누구나 사용할 수 있는 웹 서비스 배포까지의 전 주기(End-to-End) 파이프라인 경험
+
+---
+
+## ✍️ 프로젝트 핵심 문장
+> "데이터의 맥락을 읽어내어 사용자에게 개인화된 가치를 전달하고, 서비스 배포를 통해 실효성을 검증한다."
+
+---
+
+## 🛠️ 사용 기술 (Tech Stack)
+* **Language:** Python
+* **Machine Learning / AI:** Scikit-learn, Pandas, NumPy, Cosine Similarity
+* **Web Framework:** Streamlit
+* **Deployment:** Hugging Face Spaces
+
+---
+
+## 📊 데이터 이해
+* **데이터 출처:** 글로벌 넷플릭스 영화 및 TV 프로그램 메타데이터 (캐글 등 활용)
+* **주요 변수:** 장르, 출연진(Cast), 감독, 시놉시스(Description), 개봉 연도 등
+
+---
+
+## 💡 데이터가 AI에 중요한 이유
+* 추천 시스템의 성능은 알고리즘 자체뿐만 아니라, 콘텐츠의 특징을 얼마나 잘 정제하고 벡터화(Vectorization) 하느냐에 따라 결정됩니다. 
+* 결측치 처리와 텍스트 전처리(TF-IDF 등) 과정을 통해 AI가 데이터의 의미를 정확히 학습할 수 있도록 토대를 다졌습니다.
+
+---
+
+## 🔄 전체 프로젝트 흐름
+1. **데이터 수집 및 탐색 (EDA):** 결측치 확인 및 넷플릭스 콘텐츠 트렌드 파악
+2. **데이터 전처리:** 텍스트 데이터 정제 및 모델 학습용 데이터셋 구축
+3. **AI 모델 구현:** 콘텐츠 기반 필터링(Content-Based Filtering) 알고리즘 적용
+4. **웹 서비스 개발 및 배포:** Streamlit을 활용한 UI 구현 후 Hugging Face Spaces 배포
+
+---
+
+## 📂 프로젝트 구조
+```text
+netflix-ai-project/
+├── data/               # 데이터셋 파일 저장 폴더
+├── models/             # 학습된 AI 모델 파일 저장 폴더 (.pkl 등)
+├── app.py              # Streamlit 웹 서비스 메인 코드
+├── requirements.txt    # 필요 라이브러리 목록
+└── README.md           # 프로젝트 소개 문서
