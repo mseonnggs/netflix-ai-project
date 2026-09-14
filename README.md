@@ -64,17 +64,6 @@
 
 ---
 
-## 프로젝트 구조
-```text
-netflix-ai-project/
-├── data/               # 데이터셋 파일 저장 폴더
-├── models/             # 학습된 AI 모델 파일 저장 폴더 (.pkl 등)
-├── app.py              # Streamlit 웹 서비스 메인 코드
-├── requirements.txt    # 필요 라이브러리 목록
-└── README.md           # 프로젝트 소개 문서
-```text
----
-
 ## 모델 파일 안내 및 위치
 모델 파일 형식: 사이킷런 기반 유사도 계산 결과 또는 피클(model.pkl, similarity.pkl) 파일
 
@@ -91,3 +80,14 @@ netflix-ai-project/
 핵심적으로 얻은 시야: 단순한 모델 성능 수치 향상에 그치지 않고, 사용자가 실제로 체감하는 웹 서비스 관점에서 AI를 연동하는 전체 흐름을 체득할 수 있었습니다.
 
 배운 점: 데이터의 품질과 전처리가 모델의 결과물에 미치는 영향의 지대함을 깊이 깨달았으며, 배포 과정에서 발생하는 변수들을 해결하는 능력을 길렀습니다.
+
+---
+
+## 프로젝트 구조
+```text
+netflix-ai-project/
+├── data/               # 데이터셋 파일 저장 폴더
+├── models/             # 학습된 AI 모델 파일 저장 폴더 (.pkl 등)
+├── app.py              # Streamlit 웹 서비스 메인 코드
+├── requirements.txt    # 필요 라이브러리 목록
+└── README.md           # 프로젝트 소개 문서
